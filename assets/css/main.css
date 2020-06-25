@@ -1,0 +1,48 @@
+:root {
+    --x-text-color: #ffffff; /* For standard text elements */
+    --x-eye-catcher: #66bbcc; /* For 'eye-catching' text elements */
+    --x-back-color: #000000;
+}
+html, body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 90%;
+    background-color: var(--x-back-color);
+    color: var(--x-text-color);
+    width: 100%;
+    max-width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: italic;
+    color: var(--x-eye-catcher);
+}
+a, a:visited {
+    color: var(--x-eye-catcher);
+}
+a:hover {
+    font-style: italic;
+    font-weight: bold;
+}
+nav {
+    text-align: center;
+}
+nav a {
+    padding: 5px;
+}
+footer {
+    border-top: 1px solid var(--x-eye-catcher);
+    text-align: center;
+}
+#container {
+    width: 33%;
+    margin: 0px auto;
+}
+@media (max-width: 1080px) {
+    #container {
+        width: 90%;
+    }
+}
+.info-box {
+    padding: 0px 10px;
+}
